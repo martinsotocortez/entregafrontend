@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+/* ======================MENU================================== */
+
+#menu li > a {
+  font-size: 18px;
+  font-weight: bold;
+  color: #3f3f3f;
+}
+
+#menu form > button {
+  font-size: 18px;
+  font-weight: bold;
+
+}
+
+/* <!-- ============================SLIDER======================================= --> */
+.carousel-inner {
+
+  max-height: 39rem;
+}
+
+/* <!-- =========MEDIA QUERIES PANTALLA SM============================= --> */
+@media (max-width:768px) {
+  #intro, #equipo {
+    width: 90% !important;
+  } 
+  #equipo p{
+    display: none;
+  }
+.servicio-fila {
+  width: 100% !important;
+  text-align: center;
+}
+#bg-contacto {
+  top: -200px;
+}
+
+}
+
+/* ==========================CONTACTOS================================== */
+
+#bg-contacto {
+  position: relative;
+  top: -250px;
+}
+#seccion-contacto {
+  background-color: #1b2a4e;
+  min-height: 500px;
+  position: relative;
+}
+
+
+/* ================CONTACTOS FORMULARIO============ */
+
+#contenedor-formulario {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fbfafa;
+  border-radius: 5px;
+  max-width: 500px;
+}
+
+#titulo-formulario {
+  color: #3f3f3f;
+
+
+}
+
+ /* ================FOOTER============ */
+footer {
+  background: #1b2a4e;
+  min-height: 100px;
+}
+footer p {
+  color: #f3f3f3;
+  text-align: center;
+}
+
+#iconos i {
+  font-size: 26px;
+  padding: o 8px;
+  color: #f3f3f3;
+
+
+
+}
